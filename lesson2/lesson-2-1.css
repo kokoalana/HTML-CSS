@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+.fridge{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+ }
+
+.fridge div{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.fridge div p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.pepper img{
+    transform: rotate(90deg);
+}
+
+.mushroom img{
+    padding-right: 20px;
+}
+
+.wholepage h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+button{
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.wholepage p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.mushroom{
+    width: 270px;
+    height: 325px;
+}

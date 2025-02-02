@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 4.4</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            width: 100vw;
+            height: 20vh;
+            background-color: #8D8484;
+            text-align: center;
+            padding-top: 8vh;
+        }
+        .all{
+            display: flex;
+            flex-direction: row;
+        }
+        main{
+            width: 60vw;
+            display: flex;
+            flex-direction: column;
+        }
+        .firstcontent{
+            height: 20vh;
+            width: 80vw;
+            background-color: #776969;
+            text-align: center;
+            padding-top: 8vh;
+            color: white;
+        }
+        .secondcontent{
+            height: 20vh;
+            width: 80vw;
+            background-color: #643030;
+            text-align: center;
+            padding-top: 8vh;
+            color: white;
+        }
+        .thirdcontent{
+            height: 20vh;
+            width: 80vw;
+            background-color: #441818;
+            text-align: center;
+            padding-top: 8vh;
+            color: white;
+        }
+        div{
+            display: flex;
+            width: 40vw;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .firstspam{
+            height: 30vh;
+            width: 40vw;
+            background-color: #937575;
+            text-align: center;
+            padding-top: 14vh;
+            color: white;
+        }
+        .secondspam{
+            height: 30vh;
+            width: 40vw;
+            background-color: #644C4C;
+            text-align: center;
+            padding-top: 14vh;
+            color: white;
+        }
+        footer{
+            width: 100vw;
+            height: 20vh;
+            background-color: #BDBDBD;
+            text-align: center;
+            padding-top: 9vh;
+        }
+    </style>
+</head>
+<body>
+<header>Header</header>
+<div class="all">
+    <main>
+        <section class="firstcontent">Content — 1</section>
+        <section class="secondcontent">Content — 2</section>
+        <section class="thirdcontent">Content — 3</section>
+    </main>
+    <div>
+        <aside class="firstspam">spam — 1</aside>
+        <aside class="secondspam">spam — 2</aside>
+    </div>
+</div>
+<footer>Footer</footer>
+</body>
+</html>

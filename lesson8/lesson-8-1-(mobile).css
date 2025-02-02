@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px){
+    .wrapper{
+        width: 343px;
+        height: 2194px;
+        margin: 32px 16px;
+        gap: 40px;
+    }
+
+    img{
+        width: 343px;
+        height: 257px;
+    }
+}

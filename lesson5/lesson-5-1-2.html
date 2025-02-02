@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 5.1.2</title>
+    <style>
+        @keyframes drop {
+            0% {
+                opacity: 0;
+                transform: translateY(-500px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(var(--final-position,0));
+            }
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .topbun{
+            animation: drop 1s 2s ease-in-out forwards;
+            --final-position: -200px;
+        }
+        .ingredient{
+            position: absolute;
+            opacity: 0;
+            transform: translateY(-200px);
+            animation-fill-mode: forwards;
+        }
+        .patty{
+            animation: drop 1s 2s ease-in-out forwards;
+            --final-position: -100px;
+        }
+        .bottombun{
+            position: relative;
+            margin-top: -400px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img src="./img/bottom%20bun.png" alt="bottom bun" class="bottombun">
+    <img src="./img/patty.png" alt="patty" class="ingredient patty">
+    <img src="./img/top%20bun.png" alt="top bun" class="ingredient topbun">
+</div>
+</body>
+</html>

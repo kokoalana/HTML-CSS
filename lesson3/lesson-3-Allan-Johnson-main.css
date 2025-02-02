@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------------- header ------------------- */
+.active-link{
+    color: rgb(14, 36, 14);
+    border-bottom: 1px solid rgb(14, 36, 14);
+}
+header{
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Orbitron", sans-serif;
+}
+header div{
+    text-align: center;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header ul a{
+    text-decoration: none;
+    color: grey;
+
+}
+/* -----------------------main-------------------- */
+
+.home-main-section{
+    height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.home-main-section p{
+    font-size: 18px;
+}
+.home-main-section h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+
+}
+button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    background: #000;
+    color: white;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: seagreen;
+}
+
+footer h3{
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+address, .telephone, .email, .socmed, .copyright{
+    font-style: normal;
+    padding: 0 0 20px 20px;
+}
+
+.socmed img{
+    margin-right: 10px;
+}
+
+.copyright{
+    font-size: small;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: -295px;
+    margin-left: -300px;
+}
+
+form input, textarea{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: solid 2px black
+}
+
+form textarea{
+    height: 100px;
+}
+
+form label{
+    margin-left: -80px;
+}

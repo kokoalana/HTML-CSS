@@ -1,0 +1,16 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .wrapper{
+        width: 720px;
+        height: 590px;
+        margin: 32px 24px;
+    }
+
+    img{
+        width: 219px;
+        height: 164px;
+    }
+
+    .box h3{
+        width: 219px;
+    }
+}

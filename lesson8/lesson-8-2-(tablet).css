@@ -1,0 +1,9 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .wrapper{
+        width: 720px;
+        height: 556px;
+        margin: 48px 24px;
+        gap: 40px 24px;
+        flex-wrap: wrap;
+    }
+}

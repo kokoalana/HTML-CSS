@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 9.1.5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-rows: 5% 75% 10% 10%;
+            grid-template-areas:
+            "header header"
+            "main section"
+            "low low"
+            "footer footer";
+        }
+        header{
+            background-color: #D9D9D9;
+            grid-area: header;
+        }
+        main{
+            background-color: #A4A4A4;
+            grid-area: main;
+        }
+        .section{
+            grid-area: section;
+            display: grid;
+        }
+        .section1{
+            background-color: #7F7A7A;
+        }
+        .section2{
+            background-color: #615050;
+        }
+        .low{
+            background-color: #D9D9D9;
+            grid-area: low;
+        }
+        footer{
+            background-color: #AFA9A9;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <header></header>
+    <main></main>
+    <div class="section">
+        <section class="section1"></section>
+        <section class="section2"></section>
+    </div>
+    <div class="low"></div>
+    <footer></footer>
+</div>
+</body>
+</html>

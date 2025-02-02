@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 2.2</title>
+    <style>
+        *{
+            margin: 0;
+        }
+
+        .wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            height: 100vh;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: 2s;
+        }
+
+        .square:hover{
+            background-color: blue;
+            border-radius: 50%;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+</div>
+</body>
+</html>
